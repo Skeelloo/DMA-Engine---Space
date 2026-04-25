@@ -1,19 +1,19 @@
 <p align="center">
-  <img src="Assets/Img/Logo.png" alt="DME-Engine" width="160"/>
+  <img src="Assets/Img/Logo.png" alt="DMA Engine" width="160"/>
 </p>
 
-<h1 align="center">DME-Engine</h1>
+<h1 align="center">DMA Engine</h1>
 
 <p align="center">
   <strong>Free, open-source DMA overlay engine with multi-game support.</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/DMAEngine/releases/latest"><img src="https://img.shields.io/badge/Download-Latest_Release-0d1117?style=for-the-badge&logo=windows&logoColor=white" alt="Download"/></a>
+  <a href="https://github.com/Skeelloo/releases/latest"><img src="https://img.shields.io/badge/Download-Latest_Release-0d1117?style=for-the-badge&logo=windows&logoColor=white" alt="Download"/></a>
   &nbsp;
-  <a href="https://t.me/DMAEngine"><img src="https://img.shields.io/badge/Telegram-Channel-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
+  <a href="https://t.me/DMA_HUB"><img src="https://img.shields.io/badge/Telegram-Channel-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
   &nbsp;
-  <a href="https://github.com/DMAEngine"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://github.com/Skeelloo"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 
 ## About
 
-DME-Engine is a standalone DMA overlay tool built for FPGA-based DMA hardware. It ships as a single portable executable -- no installation, no .NET SDK, and no build tools required. Extract and run.
+DMA Engine is a standalone DMA overlay tool built for FPGA-based DMA hardware. It ships as a single portable executable -- no installation, no .NET SDK, and no build tools required. Extract and run.
 
 The application provides a clean Game Hub interface. Select your game, and the engine handles DMA initialization, process detection, and attachment automatically.
 
@@ -74,7 +74,7 @@ The application provides a clean Game Hub interface. Select your game, and the e
 | **Web Radar** | Built-in web radar for Arena Breakout Infinite, accessible from any device on your local network. |
 | **Input Support** | Makcu device integration for hardware-level input forwarding. |
 | **UPnP Port Mapping** | Automatic port forwarding for radar and network features. |
-| **Per-Game Configs** | Settings saved per game in `%AppData%\DME-Engine` and persist between sessions. |
+| **Per-Game Configs** | Settings saved per game in `%AppData%\DMAEngine` and persist between sessions. |
 | **Lightweight** | Single-file executable with minimal resource usage. Fully self-contained, no .NET install required. |
 
 <br/>
@@ -111,7 +111,7 @@ Once attached, the overlay activates and ESP features are live based on your gam
 All settings are stored in:
 
 ```
-%AppData%\DME-Engine\<GameName>\config.json
+%AppData%\DMAEngine\<GameName>\config.json
 ```
 
 Modify ESP toggles, colors, distances, and keybinds through the in-app settings panel. Changes save automatically.
@@ -121,7 +121,7 @@ Modify ESP toggles, colors, distances, and keybinds through the in-app settings 
 ## Folder Structure
 
 ```
-DME-Engine/
+DMA Engine/
   |-- DMAEngine.exe          Main executable
   |-- Assets/                Fonts, icons, radar assets
   |-- vmm.dll                VMM library
@@ -151,7 +151,7 @@ Run <code>DMAEngine.exe</code> as Administrator. Some games with anti-cheat may 
 <details>
 <summary><strong>OBS / Discord not capturing the overlay</strong></summary>
 <br/>
-Run OBS or Discord with the same elevation level as DME-Engine. Disable "fullscreen optimizations" on the game executable.
+Run OBS or Discord with the same elevation level as DMA Engine. Disable "fullscreen optimizations" on the game executable.
 </details>
 
 <details>
@@ -181,9 +181,9 @@ This is a false positive caused by the single-file publish and DMA library signa
 ---
 
 <p align="center">
-  <a href="https://github.com/DMAEngine/releases/latest"><img src="https://img.shields.io/badge/Download-Latest_Release-0d1117?style=for-the-badge&logo=windows&logoColor=white" alt="Download"/></a>
+  <a href="https://github.com/Skeelloo/releases/latest"><img src="https://img.shields.io/badge/Download-Latest_Release-0d1117?style=for-the-badge&logo=windows&logoColor=white" alt="Download"/></a>
   &nbsp;
-  <a href="https://t.me/DMAEngine"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
+  <a href="https://t.me/DMA_HUB"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
   &nbsp;
-  <a href="https://github.com/DMAEngine"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://github.com/Skeelloo"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
