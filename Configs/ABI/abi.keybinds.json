@@ -1,0 +1,87 @@
+{
+  "ProfileName": "ABI Keybinds",
+  "Category": "ABI",
+  "Binds": [
+    {
+      "Name": "ABI: Toggle Threads",
+      "Vk": 117,
+      "Ctrl": false,
+      "Shift": false,
+      "Alt": false,
+      "Mode": "OnPress",
+      "Action": "ABI_ToggleThreads"
+    },
+    {
+      "Name": "ABI: Toggle Boxes",
+      "Vk": 192,
+      "Ctrl": false,
+      "Shift": false,
+      "Alt": false,
+      "Mode": "OnPress",
+      "Action": "ABI_ToggleBoxes"
+    },
+    {
+      "Name": "ABI: Toggle Names",
+      "Vk": 78,
+      "Ctrl": false,
+      "Shift": false,
+      "Alt": false,
+      "Mode": "OnPress",
+      "Action": "ABI_ToggleNames"
+    },
+    {
+      "Name": "ABI: Toggle Dist",
+      "Vk": 68,
+      "Ctrl": false,
+      "Shift": false,
+      "Alt": false,
+      "Mode": "OnPress",
+      "Action": "ABI_ToggleDistance"
+    },
+    {
+      "Name": "ABI: Toggle Skel",
+      "Vk": 83,
+      "Ctrl": false,
+      "Shift": false,
+      "Alt": false,
+      "Mode": "OnPress",
+      "Action": "ABI_ToggleSkeletons"
+    },
+    {
+      "Name": "ABI: Toggle Debug",
+      "Vk": 71,
+      "Ctrl": false,
+      "Shift": false,
+      "Alt": false,
+      "Mode": "OnPress",
+      "Action": "ABI_ToggleDebug"
+    },
+    {
+      "Name": "ABI: Web Radar",
+      "Vk": 82,
+      "Ctrl": false,
+      "Shift": false,
+      "Alt": false,
+      "Mode": "OnPress",
+      "Action": "ABI_ToggleWebRadar"
+    },
+    {
+      "Name": "ABI: Attach",
+      "Vk": 65,
+      "Ctrl": false,
+      "Shift": false,
+      "Alt": false,
+      "Mode": "OnPress",
+      "Action": "ABI_Attach"
+    },
+    {
+      "Name": "ABI: Dispose VMM",
+      "Vk": 88,
+      "Ctrl": false,
+      "Shift": false,
+      "Alt": false,
+      "Mode": "OnPress",
+      "Action": "ABI_DisposeVmm"
+    }
+  ]
+}
